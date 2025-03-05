@@ -6,5 +6,5 @@ import store from './store'
 
 
 
-const app = createApp(App);
+const app = createApp(App).use(store).use(store);
 app.use(router).use(store).mount('#app');

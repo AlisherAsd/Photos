@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { IPhoto } from '../../shared/types/IPhoto';
 
-const props = defineProps<{
+defineProps<{
     photo: IPhoto
 }>();
 
